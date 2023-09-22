@@ -1,6 +1,6 @@
 steps:
 - name: 'docker'
-  args: [ 'build', '-t', 'asia-east1-west1-docker.pkg.dev/$PROJECT_ID/ungkluk/suuk:latest', '.' ]
+  args: [ 'build', '-t', 'asia-east1-docker.pkg.dev/$PROJECT_ID/ungkluk/suuk:latest', '.' ]
 
 images:
 - 'asia-east1-docker.pkg.dev/$PROJECT_ID/ungkluk/suuk:latest'
